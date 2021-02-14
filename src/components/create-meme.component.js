@@ -79,9 +79,10 @@ export default class Creatememe extends Component {
     img.onload = function(){     console.log(meme);
 
       axios.post('https://meme-sheme.herokuapp.com/memes/add/', meme)
-        .then(res => console.log(res.data));
+        .then(res => console.log(res.data))
+        .then(() => alert('meme added'));
   
-      window.location = '/';
+      //window.location = '/';
     }; 
     
     img.onerror = function(){ alert("bad"); };
