@@ -8,7 +8,8 @@ export default function Top(){
                 <div className="container">
             
             <p>XMeme's</p>
-            <h1 style={{color : "#fff" }}>Meme Sheme                 👁️👄👁️</h1>
+            <h1 style={{color : "#fff" }}>Meme Sheme</h1>                 
+            <h1>👁️👄👁️</h1>
             <p>
                 Whether you are a Meme Newbie or a Meme Lord, Meme Sheme is the place where you can watch and share memes
             </p>
