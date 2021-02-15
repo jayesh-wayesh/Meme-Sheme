@@ -5,7 +5,6 @@
 /.pnp
 .pnp.js
 /m
-/backend
 
 # testing
 /coverage
